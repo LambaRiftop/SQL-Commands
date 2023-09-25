@@ -41,7 +41,7 @@ The commands in this section are the most basic commands in SQL, and they are us
 
 
 ### **Create Table**: This command is used to create a table in the database.
-```` SQL
+```` 
 CREATE TABLE table_name (
     column_name1 data_type,
     column_name2 data_type,
@@ -49,7 +49,7 @@ CREATE TABLE table_name (
     );
 ````
 Example:
-```` SQL
+```` 
 CREATE TABLE employees (
     id INT constraint employee_pk PRIMARY KEY,
     name VARCHAR(25),
@@ -72,32 +72,32 @@ ALTER TABLE table_name DROP COLUMN column_name;
 ALTER TABLE table_name MODIFY COLUMN column_name data_type;
 ````
 Example:
-```` SQL
+````
 ALTER TABLE employees ADD email VARCHAR(25);
 ````
 
-```` SQL
+````
 ALTER TABLE employees DROP COLUMN address;
 ````
 > **Note:** If you want to delete multiple columns, you can use a comma to separate the column names.
 
-```` SQL
+````
 ALTER TABLE employees MODIFY COLUMN salary DOUBLE(10,2);
 ````
 ### **Drop Table**: This command is used to delete a table from the database.
-```` SQL
+```` 
 DROP TABLE table_name;
 ````
 > **Note:** Be careful before using this command, because once you delete a table, all the information in that table will be lost.
 
 ### **Truncate Table**: This command is used to delete all the records from a table, but the table structure and its columns, constraints, indexes, and so on remain.
-```` SQL
+```` 
 TRUNCATE TABLE table_name;
 ````
 > **Note:** Be careful before using this command, because once you delete all the records from a table, all the information in that table will be lost.
 
 ### Insert Data: This command is used to insert data into a table.
-```` SQL
+```` 
 INSERT INTO table_name (
     column1,
     column2,
@@ -105,23 +105,23 @@ INSERT INTO table_name (
 VALUES (value1, value2, value3, ...);
 ````
 ### **Update Data**: This command is used to modify the existing records in a table.
-```` SQL
+```` 
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition;
 ````
 > **Note:** If you omit the WHERE clause, all records in the table will be updated!
 ### **Rename Table**: This command is used to rename a table.
-```` SQL
+```` 
 RENAME TABLE table_name TO new_table_name;
 ````
 ### **Copy Table**: This command is used to copy a table.
-```` SQL
+```` 
 CREATE TABLE new_table_name AS
     SELECT * FROM old_table_name;
 ````
 > **Note:** The new table will be created with the column-names and types as defined in the old table. You can also select only some columns, and give them new names, like this:
-```` SQL
+```` 
 CREATE TABLE new_table_name AS
     SELECT column_name1, column_name2, column_name3
     FROM old_table_name;

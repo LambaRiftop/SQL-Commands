@@ -1,6 +1,6 @@
 # List of SQL commands for SQL Developer
 
-![Alt text](image.png)
+![Alt text](Docs/Assest/image.png)
 > _Credits to the image creator_
 
 

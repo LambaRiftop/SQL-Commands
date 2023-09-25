@@ -11,7 +11,7 @@
     - [Other questions](docs)
 
 - **Sections**
-    - [Commands](List/Commands)
+    - [Commands](List/Commands.md)
     - [Documents](list/documents)
     - [Exercises](list/exercises)
 

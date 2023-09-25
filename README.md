@@ -6,14 +6,16 @@
 
 ## List of Contents
 - **Questions**
+
     | [what is this and its purpose?](#what-is-this-and-its-purpose) |
      [How is the repository structured?](list/Sections) |
      [Other questions](docs) |
 
 - **Sections**
-    - [Commands](List/Commands.md)
-    - [Documents](list/documents)
-    - [Exercises](list/exercises)
+
+    | [Commands](List/Commands.md) |
+      [Documents](list/documents) |
+      [Exercises](list/exercises) |
 
 
 ## What is this and its purpose?

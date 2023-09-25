@@ -12,7 +12,7 @@ The commands in SQL are call queries, and they are two types of queries:
         - COPY
 
 - Data Manipulation queries (DML)
-    - Statements_
+    - Statements
         - INSERT
         - UPDATE
         - DELETE

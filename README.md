@@ -14,8 +14,8 @@
 - **Sections**
 
     | [Commands](List/Commands.md) |
-      [Documents](list/Documents.md) |
-      [Exercises](list/Exercises.md) |
+      [Documents](List/Documents.md) |
+      [Exercises](List/Exercises.md) |
 
 
 ## What is this and its purpose?

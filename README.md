@@ -18,12 +18,16 @@ Its purpose is to aid my own learning and retention, while also serving as a res
 
 ## Repository in progress
 
-This repository is still in progress, so it is possible that some sections are not yet available.
+This repository is still in progress, so it is possible that some sections are not yet finish or avaible.
+
+This will change little by little, as I acquire more knowledge and documents about Oracle-SQL and other things
 
 
 ## How is the repository structured?
 
-This repository will be organized in three sections:
+The repository will be organized in three principal sections.
+
+This sections are:
 
 1. ### Commands
 

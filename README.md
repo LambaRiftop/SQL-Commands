@@ -8,7 +8,7 @@
 - **Questions**
 
     | [what is this and its purpose?](#what-is-this-and-its-purpose) |
-     [How is the repository structured?](list/Sections) |
+     [How is the repository structured?](#repository-in-progress) |
      [Other questions](docs) |
 
 ## What is this and its purpose?
